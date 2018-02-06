@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yummywakame.valentinecard.MainActivity">
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:snowflakesNum="50"
+        app:snowflakeAlphaMin="150"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAngleMax="5"
+        app:snowflakeSizeMin="8dp"
+        app:snowflakeSizeMax="32dp"
+        app:snowflakeSpeedMin="4"
+        app:snowflakeSpeedMax="6"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesAlreadyFalling="true"
+        app:snowflakeImage="@drawable/pink_heart"/>
+
+    <ImageView
+        android:id="@+id/paper_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/paper_image_view"
+        android:src="@drawable/clean_gray_paper" />
+
+    <ImageView
+        android:id="@+id/mushroom_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/mushroom_image_view"
+        android:src="@drawable/fungi_big" />
+
+    <LinearLayout
+        android:id="@+id/mushroom_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mushroom_image_view"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/mushroom_text_view_1"
+            android:textSize="18sp"
+            android:textColor="#230503"
+            android:orientation="vertical"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/mushroom_text_view_2"
+            android:textSize="26sp"
+            android:textColor="#230503"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/mushroom_text_view_3"
+            android:textSize="18sp"
+            android:textColor="#230503"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fungi_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mushroom_image_view"
+        android:padding="0dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/fungi_text_view_1"
+            android:textSize="18sp"
+            android:textColor="#230503"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/fungi_text_view_2"
+            android:textSize="26sp"
+            android:textColor="#230503"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/fungi_text_view_3"
+            android:textSize="18sp"
+            android:textColor="#230503"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Valentine Card</string>
+    <string name="mushroom_image_view">Drawing of a mushroom</string>
+    <string name="paper_image_view">Textured paper background</string>
+    <string name="mushroom_text_view_1">I have so</string>
+    <string name="mushroom_text_view_2">mushroom</string>
+    <string name="mushroom_text_view_3">in my heart</string>
+    <string name="fungi_text_view_1">for a</string>
+    <string name="fungi_text_view_2">fungi</string>
+    <string name="fungi_text_view_3">like you!</string>
+</resources>
