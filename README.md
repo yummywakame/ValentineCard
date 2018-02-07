@@ -2,6 +2,8 @@
 
 **Created for the *Grow with Google Challenge Scholarship:* Android Basics Course**
 
+Full [video tutorial](https://www.youtube.com/watch?v=VrgKaYH3XLw) available on YouTube.
+
 Used **API 23: Android 6.0 (Marshmallow)** to allow for custom fonts and falling hearts.
 
 ## Screenshots From the App:
@@ -24,3 +26,5 @@ I modified **[JetradarMobile](https://github.com/JetradarMobile)/[android-snowfa
 
 ### Shoutout
 Many thanks to **thr0w** for his tutorial [How to set up Android Studio with Github](https://discussions.udacity.com/t/how-to-set-up-android-studio-with-github-courses/203518), and **nick** for the idea to use android-snowfall like he did on his [class project](https://andbeg-googlescholar.slack.com/messages/C8J4MMXGT/stars/).
+
+Full [video tutorial](https://www.youtube.com/watch?v=VrgKaYH3XLw) available on YouTube.
