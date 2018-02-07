@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yummywakame.valentinecard.MainActivity">
+    tools:context="com.yummywakame.valentinecard.MainActivity"
+    android:includeFontPadding="false"
+    android:lineSpacingExtra="0dp">
 
     <com.jetradarmobile.snowfall.SnowfallView
         android:layout_width="match_parent"
@@ -13,10 +15,10 @@
         app:snowflakeAlphaMin="150"
         app:snowflakeAlphaMax="255"
         app:snowflakeAngleMax="5"
-        app:snowflakeSizeMin="8dp"
-        app:snowflakeSizeMax="32dp"
-        app:snowflakeSpeedMin="4"
-        app:snowflakeSpeedMax="6"
+        app:snowflakeSizeMin="16dp"
+        app:snowflakeSizeMax="46dp"
+        app:snowflakeSpeedMin="6"
+        app:snowflakeSpeedMax="8"
         app:snowflakesFadingEnabled="true"
         app:snowflakesAlreadyFalling="true"
         app:snowflakeImage="@drawable/pink_heart"/>
@@ -36,7 +38,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:contentDescription="@string/mushroom_image_view"
-        android:src="@drawable/fungi_big" />
+        android:src="@drawable/fungi" />
 
     <LinearLayout
         android:id="@+id/mushroom_text_view"
@@ -44,76 +46,95 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/mushroom_image_view"
         android:layout_centerHorizontal="true"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:padding="0dp">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAllCaps="true"
+            android:fontFamily="@font/sue_ellen_francisco"
             android:text="@string/mushroom_text_view_1"
-            android:textSize="18sp"
+            android:textAllCaps="true"
             android:textColor="#230503"
-            android:orientation="vertical"
-            android:textAlignment="center" />
+            android:textSize="18sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAllCaps="true"
+            android:fontFamily="@font/sue_ellen_francisco"
             android:text="@string/mushroom_text_view_2"
-            android:textSize="26sp"
+            android:textAllCaps="true"
             android:textColor="#230503"
-            android:textAlignment="center" />
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textSize="26sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAllCaps="true"
+            android:fontFamily="@font/sue_ellen_francisco"
             android:text="@string/mushroom_text_view_3"
-            android:textSize="18sp"
+            android:textAllCaps="true"
             android:textColor="#230503"
-            android:textAlignment="center" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/fungi_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/mushroom_image_view"
         android:padding="0dp" >
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAllCaps="true"
+            android:fontFamily="@font/sue_ellen_francisco"
             android:text="@string/fungi_text_view_1"
-            android:textSize="18sp"
+            android:textAllCaps="true"
             android:textColor="#230503"
-            android:textAlignment="center" />
+            android:textSize="18sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAllCaps="true"
+            android:fontFamily="@font/sue_ellen_francisco"
             android:text="@string/fungi_text_view_2"
-            android:textSize="26sp"
+            android:textAllCaps="true"
             android:textColor="#230503"
-            android:textAlignment="center" />
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textSize="26sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAllCaps="true"
+            android:fontFamily="@font/sue_ellen_francisco"
             android:text="@string/fungi_text_view_3"
-            android:textSize="18sp"
+            android:textAllCaps="true"
             android:textColor="#230503"
-            android:textAlignment="center" />
+            android:textSize="18sp" />
     </LinearLayout>
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/card_text_to"
+    android:layout_margin="20dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"/>
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/card_text_from"
+    android:layout_margin="20dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
