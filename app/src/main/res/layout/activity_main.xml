@@ -8,21 +8,6 @@
     android:includeFontPadding="false"
     android:lineSpacingExtra="0dp">
 
-    <com.jetradarmobile.snowfall.SnowfallView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:snowflakesNum="50"
-        app:snowflakeAlphaMin="150"
-        app:snowflakeAlphaMax="255"
-        app:snowflakeAngleMax="5"
-        app:snowflakeSizeMin="16dp"
-        app:snowflakeSizeMax="46dp"
-        app:snowflakeSpeedMin="6"
-        app:snowflakeSpeedMax="8"
-        app:snowflakesFadingEnabled="true"
-        app:snowflakesAlreadyFalling="true"
-        app:snowflakeImage="@drawable/pink_heart"/>
-
     <ImageView
         android:id="@+id/paper_image_view"
         android:layout_width="match_parent"
@@ -39,6 +24,21 @@
         android:layout_centerVertical="true"
         android:contentDescription="@string/mushroom_image_view"
         android:src="@drawable/fungi" />
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:snowflakesNum="50"
+        app:snowflakeAlphaMin="150"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAngleMax="5"
+        app:snowflakeSizeMin="16dp"
+        app:snowflakeSizeMax="46dp"
+        app:snowflakeSpeedMin="6"
+        app:snowflakeSpeedMax="8"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesAlreadyFalling="true"
+        app:snowflakeImage="@drawable/pink_heart"/>
 
     <LinearLayout
         android:id="@+id/mushroom_text_view"
