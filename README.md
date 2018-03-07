@@ -8,10 +8,8 @@ Used **API 23: Android 6.0 (Marshmallow)** to allow for custom fonts and falling
 
 ## Screenshots From the App:
 
-### Portrait
-![Portrait](./valentinecard_preview.gif)
-### Landscape
-![Landscape](./valentinecard_preview_landscape.png)
+### Portrait & Landscape
+![Portrait](./valentinecard_screenshot.png)
 
 ## Mini Explanation & Tutorial
 1. A RelativeLayout parent view contains LinearLayout child views to achieve the most responsive result when going from portrait to landscape mode:
